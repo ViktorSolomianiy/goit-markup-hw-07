@@ -1,0 +1,21 @@
+:root {
+  --main-color: #212121;
+  --second-color: #757575;
+  --btn-color: #2196f3;
+  --btn-gallery-color: #f5f4fa;
+  --icon-color: #afb1b8;
+  --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
